@@ -1,0 +1,86 @@
+body{
+    background-image: url("../imgs/soft-colors-gradient-background-free-vector.jpg");
+    margin: 0;
+    padding: 0;
+    }
+.colum1{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: fotos;
+}
+img{
+    height: 400px;
+    width: 300px;
+    margin: 5px;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(35, 222, 255, 0.719);
+}
+.text2{
+    height: 25px;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cajas1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cajas2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cajas3{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cajasEdit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: mediumturquoise;
+    grid-area: cajas;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+    font-weight: 700;
+}
+.footer{
+    grid-area: foot;
+}
+.grid-area-1{
+    grid-area: nav;
+}
+.grid-area-2{
+  grid-area: section;
+}
+.ads{
+    grid-area: adss;
+}
+.text11{
+    background-color: mediumturquoise;
+    grid-area: header;
+}
+.text22{
+
+    background-color: rgba(7, 125, 221, 0.788);
+    grid-area: section;
+}
+.text33{
+    background-color: rgba(12, 202, 216, 0.644);
+    grid-area: foot;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "header  section section"
+                          "header section section"
+                          "header foot foot";
+}
